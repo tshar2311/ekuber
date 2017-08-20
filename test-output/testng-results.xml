@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[PASS:Title is matching]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30598" started-at="2017-08-20T10:13:25Z" finished-at="2017-08-20T10:13:56Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="30598" started-at="2017-08-20T10:13:25Z" finished-at="2017-08-20T10:13:56Z">
+      <class name="com.ekuber.test.VerifyBuildVersion">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.ekuber.test.VerifyBuildVersion@100d6b1]" name="openApplication" is-config="true" duration-ms="3065" started-at="2017-08-20T15:43:45Z" finished-at="2017-08-20T15:43:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testVerifyBuildVersion()[pri:3, instance:com.ekuber.test.VerifyBuildVersion@100d6b1]" name="testVerifyBuildVersion" duration-ms="6751" started-at="2017-08-20T15:43:48Z" finished-at="2017-08-20T15:43:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyBuildVersion -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.ekuber.test.VerifyBuildVersion@100d6b1]" name="closeApplication" is-config="true" duration-ms="748" started-at="2017-08-20T15:43:55Z" finished-at="2017-08-20T15:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.ekuber.test.VerifyBuildVersion -->
+      <class name="com.ekuber.test.Validlogin">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.ekuber.test.Validlogin@e92674]" name="openApplication" is-config="true" duration-ms="2984" started-at="2017-08-20T15:43:40Z" finished-at="2017-08-20T15:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:com.ekuber.test.Validlogin@e92674]" name="testValidLogin" duration-ms="1899" started-at="2017-08-20T15:43:43Z" finished-at="2017-08-20T15:43:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS:Title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.ekuber.test.Validlogin@e92674]" name="closeApplication" is-config="true" duration-ms="735" started-at="2017-08-20T15:43:44Z" finished-at="2017-08-20T15:43:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.ekuber.test.Validlogin -->
+      <class name="com.ekuber.test.InvalidLogin">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:com.ekuber.test.InvalidLogin@85bdee]" name="initDriver" is-config="true" duration-ms="31" started-at="2017-08-20T15:43:25Z" finished-at="2017-08-20T15:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.ekuber.test.InvalidLogin@85bdee]" name="openApplication" is-config="true" duration-ms="4535" started-at="2017-08-20T15:43:25Z" finished-at="2017-08-20T15:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:0, instance:com.ekuber.test.InvalidLogin@85bdee]" name="testInvalidLogin" duration-ms="8933" started-at="2017-08-20T15:43:30Z" finished-at="2017-08-20T15:43:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.ekuber.test.InvalidLogin@85bdee]" name="closeApplication" is-config="true" duration-ms="909" started-at="2017-08-20T15:43:39Z" finished-at="2017-08-20T15:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.ekuber.test.InvalidLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
